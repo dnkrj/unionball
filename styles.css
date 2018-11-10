@@ -1,0 +1,251 @@
+body{
+  font: 16px;
+  color:white;
+  background-color:black;
+  height: auto;
+  margin:0 0 0 0;
+  padding:0 0 0 0;
+}
+
+h1{
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  line-height: 60px;
+  margin: 0;
+}
+
+h2{
+  font-family: 'Playfair Display', serif;
+  font-size: 35px;
+  line-height: 40px;
+  margin: 0;
+}
+
+p{
+  font-size: 16px;
+  line-height: 24px;
+}
+
+a{
+  color:white;
+  text-decoration: none;
+  font-style: normal;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.page{
+  height: auto;
+  min-height: 100%;
+  width:100%;
+  margin:0 0 0 0;
+  padding:0 0 0 0;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-position:center;
+  background-size:cover;
+  text-align: center;
+  overflow: hidden;
+}
+
+.showlink {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+body, html {
+  height: 100%;
+}
+
+/****************************/
+
+#cover {
+  background-image: url('img/bg_cover.jpg');
+  min-height: 450px;
+  height: 100%;
+}
+
+#food {
+  background-image: url('img/bg_food.jpg');
+}
+
+#drink {
+  background-image: url('img/bg_drink.jpg');
+}
+
+#entertainment {
+  background-image: url('img/bg_entertainment.jpg');
+}
+
+#entertainment h1 {
+  font-size: 40px;
+}
+
+#tickets {
+  background-image: url('img/bg_tickets.jpg');
+}
+
+#committee {
+  background-image: url('img/bg_committee.jpg');
+}
+
+#sponsorship {
+  background-image: url('img/bg_sponsorship.jpg');
+}
+
+#sponsorship h1 {
+  font-size: 45px;
+}
+
+@media only screen and ( -webkit-min-device-pixel-ratio: 1.3 ),
+       only screen and (    min--moz-device-pixel-ratio: 1.3 ),
+       only screen and (      -o-min-device-pixel-ratio: 2.6/2 ),
+       only screen and (         min-device-pixel-ratio: 1.3 ),
+       only screen and ( min-resolution: 124.8dpi ),
+       only screen and ( min-resolution: 1.3dppx )
+       only screen and ( min-width: 1920px ) {
+
+  #cover {
+    background-image: url('img/bgr_cover.jpg');
+  }
+  
+  #food {
+    background-image: url('img/bgr_food.jpg');
+  }
+  
+  #drink {
+    background-image: url('img/bgr_drink.jpg');
+  }
+  
+  #entertainment {
+    background-image: url('img/bgr_entertainment.jpg');
+  }
+  
+  #tickets {
+    background-image: url('img/bgr_tickets.jpg');
+  }
+  
+  #committee {
+    background-image: url('img/bgr_committee.jpg');
+  }
+  
+  #sponsorship {
+    background-image: url('img/bgr_sponsorship.jpg');
+  }
+
+}
+
+/****************************/
+
+#menu {
+  width:100%;
+  position: fixed;
+  text-align: center;
+  margin: 0 0 0 0;
+  padding: 10px 0 10px 0;
+  background: rgba(0,0,0,0.9);
+  z-index:3;
+}
+
+#menu li{
+  display: inline-block;
+  padding: 10px 10px 10px 10px;
+  font-size:12px;
+  font-family: 'Playfair Display SC', serif;
+  line-height: 20px;
+}
+
+#menu li img{
+  margin: 3px 0 -3px 0;
+}
+
+#menu a li{
+  opacity: 1;
+}
+
+#menu a li:hover{
+  opacity: 0.8;
+}
+
+#contents {
+  height:100%;
+}
+
+.section {
+  width:100%;
+  max-width: 960px;
+  min-width: 320px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.content {
+  width:auto;
+  max-width: 580px;
+  min-width: 300px;
+  padding: 100px 10px 0 10px;
+  text-align: justify;
+}
+
+.right {
+  text-align: right;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#logo {
+  width:100%;
+  max-width:440px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+#tickets .content {
+  max-width: 450px
+}
+
+#food .content {
+  max-width: 500px
+}
+
+#drink .content {
+  max-width: 500px
+}
+
+#food .right {
+  text-align: justify;
+}
+
+#food h1, #food #pright {
+  text-align: right;
+}
+
+#tickets a {
+ opacity: 0.9;
+}
+
+#sponsorship .section,
+#sponsorship .section .content {
+  max-width: 100%;
+}
+
+#sponsor {
+  width: 100%;
+  max-width: 300px;
+  display: inline-block;
+}

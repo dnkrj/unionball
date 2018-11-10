@@ -1,0 +1,59 @@
+body {
+	background-color: black;
+	background-image: url('img/bg.jpg');
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-position:center;
+	background-size:cover;
+}
+
+#content {
+	color: white;
+	margin: 0 auto;
+	width:100%;
+	max-width:800px;
+	text-align: justify;
+ 	font-family: 'Playfair Display', serif;
+}
+
+h1 {
+	text-align: center;
+	opacity: 0.5;
+	font-size: 52px;
+}
+
+h2 {
+	opacity: 0.7;
+	font-size: 30px;
+	margin-top: 30px;
+	margin-bottom: -14px;
+}
+
+h3 {
+	opacity: 0.7;
+	font-size: 24px;
+	text-align: center;
+}
+
+a {
+	color:white;
+	opacity: 0.5;
+}
+
+a:hover {
+	opacity: 0.7;
+}
+
+p {
+	line-height: 24px;
+}
+
+#logodiv {
+	width:100%;
+	text-align: center;
+}
+
+#logo {
+	width: 100%;
+	max-width: 400px;
+}
